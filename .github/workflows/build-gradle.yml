@@ -19,6 +19,9 @@ jobs:
       with:
         java-version: '17'
         distribution: 'corretto'
+        
+    - name: Where is here
+      run: pwd
           
     - name: Change gradlew's permission
       run: chmod +x ./gradlew
