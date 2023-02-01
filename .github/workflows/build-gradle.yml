@@ -23,7 +23,7 @@ jobs:
     - name: Where is here
       run: pwd
           
-    - name: Change gradlew's permission
+    - name: Executable Gradle
       run: chmod +x ./gradlew
         
     - name: Build with Gradle
