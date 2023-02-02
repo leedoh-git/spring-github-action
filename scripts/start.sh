@@ -10,7 +10,7 @@ LOG_FILE="$ROOT_PATH/log/start.log"
 NOW=$(date +%c)
 
 echo "[$NOW] $JAR 복사" >> $LOG_FILE
-cp $ROOT_PATH/build/libs/*.jar $JAR
+cp $ROOT_PATH/build/libs/spring-github-action-1.0.0.jar $JAR
 
 echo "[$NOW] > $JAR 실행" >> $LOG_FILE
 nohup java -jar $JAR > $APP_LOG 2> $ERROR_LOG &
