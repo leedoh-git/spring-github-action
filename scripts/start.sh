@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ROOT_PATH="/home/ubuntu/cicdtest"
 JAR="$ROOT_PATH/application.jar"
 
