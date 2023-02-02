@@ -8,7 +8,7 @@ on:
 
 env:
   AWS_REGION: ap-northeast-2
-  AWS_S3_BUCKET: cicd-test-ec2-releases
+  AWS_S3_BUCKET: app-release-files
   AWS_CODE_DEPLOY_APPLICATION: cicd-test-ec2-CD
   AWS_CODE_DEPLOY_GROUP: cicd-test-ec2-CD-group
 
