@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ROOT_PATH="/home/ubuntu/cicdtest"
+ROOT_PATH="/home/ubuntu/spring-github-action"
 JAR="$ROOT_PATH/application.jar"
 LOG_FILE="$ROOT_PATH/log/stop.log"
 SERVICE_PID=$(pgrep -f $JAR) # 실행중인 Spring 서버의 PID
