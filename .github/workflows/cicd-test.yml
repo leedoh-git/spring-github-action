@@ -41,9 +41,4 @@ jobs:
         aws-secret-access-key: ${{ secrets.CICD_TEST_SECRET_KEY }}
 
     - name: S3에 업로드
-      run: |
-        aws deploy push \
-          --application-name ${{ env.AWS_CODE_DEPLOY_APPLICATION }} \
-          --ignore-hidden-files \
-          --s3-location s3://$AWS_S3_BUCKET/$GITHUB_SHA.zip \
-          --source .
+      run: aws deploy push --application-name ${{ env.AWS_CODE_DEPLOY_APPLICATION }} --ignore-hidden-files --s3-location s3://$AWS_S3_BUCKET/$GITHUB_SHA.zip --source .
