@@ -9,7 +9,7 @@ on:
 env:
   AWS_REGION: us-east-1
   AWS_S3_BUCKET: s3forcicd
-  AWS_CODE_DEPLOY_APPLICATION: cicid-test-CD
+  AWS_CODE_DEPLOY_APPLICATION: cicid-test-cd
   AWS_CODE_DEPLOY_GROUP: cicd-test-CD-group
 
 jobs:
